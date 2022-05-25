@@ -1,4 +1,4 @@
-name: Deploy Test Container
+name: Deploy_Test_Container
 
 on:
   push:
