@@ -42,12 +42,12 @@ on:
       - main
     paths:
       - "packages/container/**"
-defaults:
-  run:
-    working-directory: packages/container
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
+# defaults:
+#   run:
+#     working-directory: packages/container
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
     # steps:
     #   - uses: actions/checkout@v2
     #   - name: Configure AWS credentials
