@@ -20,12 +20,14 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: ls
+      - run: ls -la ./dist
 
       - uses: shinyinc/action-aws-cli@v1.2
       - run: sudo apt-get install -y \python3.7 \python3-pip
       - run: sudo pip install awscli
       - run: aws --version
       - run: pwd
+      - run: ls -la ./dist
       - run: aws s3 sync package.json s3://microfrontend-dashboard/
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
