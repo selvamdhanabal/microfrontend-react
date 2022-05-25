@@ -28,7 +28,7 @@ jobs:
       - run: aws --version
       - run: pwd
       - run: ls -la ./dist
-      - run: aws s3 cp package.json s3://${{ secrets.AWS_S3_BUCKET_NAME }}
+      - run: aws s3 cp package.json s3://microfrontend-dashboard
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
