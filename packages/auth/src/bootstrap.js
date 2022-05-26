@@ -29,7 +29,7 @@ const mount = (el, {onNavigate, defaultHistory}) => {
 
 // If we in development mode and in isolation, call mount immediatly
 if(process.env.NODE_ENV === 'development') {
-    const devRoot = document.querySelector('#_marketing_dev_root')
+    const devRoot = document.querySelector('#_auth_dev_root')
     if(devRoot) {
         mount(devRoot, {defaultHistory: createBrowserHistory()})
     }
