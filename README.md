@@ -11,7 +11,7 @@ marketing - Shows the home page and pricing page of the application
 
 ## Available Scripts
 
-In the [container] directory, you can run:
+In the `container` directory, you can run:
 
 ### `npm start`
 
@@ -30,7 +30,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-In the [marketing] directory, you can run:
+In the `marketing` directory, you can run:
 
 ### `npm start`
 
@@ -49,7 +49,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-In the [auth] directory, you can run:
+In the `auth` directory, you can run:
 
 ### `npm start`
 
@@ -69,7 +69,7 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 
-In the [dashboard] directory, you can run:
+In the `dashboard` directory, you can run:
 
 ### `npm start`
 
